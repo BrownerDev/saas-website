@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SaaS Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/css/tablet.css">
+  <link rel="stylesheet" href="/css/mobile.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="/images/logo.svg" alt="Logo">
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Learn</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">Hire Us</a></li>
+      <li class="buy-btn"><a href="#">Buy Now</a></li>
+    </ul>
+  </nav>
+  
+  <nav class="mobile-nav">
+    <div id="nav-icon" class="nav-icon">&#9776;</div>
+    <div class="logo">
+      <img src="/images/logo.svg" alt="Logo">
+    </div>
+    <hr>
+
+    <ul id="mobile-links" class="nav-links closed">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Learn</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">Hire Us</a></li>
+      <li class="buy-btn"><a href="#">Buy Now</a></li>
+    </ul>
+  </nav>
+
+  <script>
+    document.getElementById('nav-icon').addEventListener('click', function() {
+      const links = document.getElementById('mobile-links');
+      links.classList.toggle('closed');
+    });
+  </script>
+</body>
+</html>
