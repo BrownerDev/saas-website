@@ -7,7 +7,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: url('/images/background-top.svg') no-repeat top right;
+  background: url('./images/background-top.svg') no-repeat top right;
   background-size: cover; 
   overflow-x: hidden;
 }
