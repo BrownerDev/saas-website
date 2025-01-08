@@ -160,49 +160,51 @@ img {
   width: 70px;
   top: 5%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, 0);
 }
 
 /* Top-right icon */
 .logo-icons img:nth-child(2) {
   width: 60px;
-  top: 25%;
-  right: 10%;
+  top: 15%;
+  right: 5%;
+}
+
+/* Middle-right icon */
+.logo-icons img:nth-child(3) {
+  width: 65px;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
 }
 
 /* Bottom-right icon */
-.logo-icons img:nth-child(3) {
-  width: 65px;
-  bottom: 25%;
+.logo-icons img:nth-child(4) {
+  width: 70px;
+  bottom: 10%;
   right: 10%;
 }
 
 /* Bottom-center icon */
-.logo-icons img:nth-child(4) {
+.logo-icons img:nth-child(5) {
   width: 80px;
   bottom: 5%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, 0);
 }
 
 /* Bottom-left icon */
-.logo-icons img:nth-child(5) {
+.logo-icons img:nth-child(6) {
   width: 60px;
-  bottom: 25%;
+  bottom: 15%;
   left: 10%;
 }
 
 /* Top-left icon */
-.logo-icons img:nth-child(6) {
-  width: 70px;
-  top: 25%;
-  left: 10%;
-}
-
 .logo-icons img:nth-child(7) {
   width: 70px;
-  top: 25%;
-  left: 25%;
+  top: 15%;
+  left: 5%;
 }
 
 
