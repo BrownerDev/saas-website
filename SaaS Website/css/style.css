@@ -66,13 +66,13 @@ img {
   max-width: 1200px;
   margin: auto;
   display: flex;
-  justify-content: space-between; /* Space between text and logos */
+  justify-content: space-between;
   align-items: center;
 }
 
 .hero-wording {
   text-align: left;
-  max-width: 60%; /* Adjust width for balance */
+  max-width: 60%; 
 }
 
 .hero-section h1 {
